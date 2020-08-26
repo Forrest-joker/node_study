@@ -92,7 +92,3 @@ $ npm test(测试项目)
 
 ### 个人文章页以及正常编辑删除文章和评论
 
-### 个人小程序
-
-![img](http://www.wclimb.site/cdn/xcx.jpeg?v=1) 
-
