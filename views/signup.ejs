@@ -92,9 +92,9 @@
 					success: function (msg) {
 					   if(msg.code == 200){
 						   fade('注册成功')
-						   setTimeout(function(){
-							   window.location.href = "/signin"	  
-						   },1000)
+						//    setTimeout(function(){
+						// 	   window.location.href = "/signin"	  
+						//    },1000)
 
 					   }else{
  							fade(msg.message)
