@@ -53,6 +53,7 @@ app.use(require('./routers/signup.js').routes())
 app.use(require('./routers/posts.js').routes())
 app.use(require('./routers/signout.js').routes())
 app.use(require('./routers/center.js').routes())
+app.use(require('./routers/work.js').routes())
 
 
 app.listen(config.port)
