@@ -14,6 +14,7 @@ exports.gettheme = async (ctx) => {
             {
               id: 13,
               isNoSave: false,
+              price: 100,
               zIndex: 5,
               name: "暴富",
               displayurl:
@@ -24,20 +25,24 @@ exports.gettheme = async (ctx) => {
             {
               id: 4,
               isNoSave: false,
+              price: 100,
               zIndex: 2,
               name: "momian1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_cake_black_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cake_black_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cake_black_sample.png",
             },
             {
               id: 7,
               isNoSave: false,
+              price: 100,
               zIndex: 4,
               name: "linmian1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l3_cream_black_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cream_black_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cream_black_sample.png",
             },
           ],
         },
@@ -50,33 +55,40 @@ exports.gettheme = async (ctx) => {
             {
               id: 6,
               isNoSave: false,
+              price: 100,
               zIndex: 2,
               name: "momian4",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_cake_white_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cake_white_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cake_white_sample.png",
             },
             {
               id: 0,
               isNoSave: false,
+              price: 100,
               zIndex: 3,
               name: "qiqiu1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_balloon_black_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_balloon_black_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_balloon_black_sample.png",
             },
             {
               id: 11,
               isNoSave: false,
+              price: 100,
               zIndex: 5,
               name: "chapai1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l5_theme_pubg_back_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_char_pubg_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_char_pubg_sample.png",
             },
             {
               id: 17,
               isNoSave: true,
+              price: 100,
               zIndex: 3,
               name: "吃鸡",
               displayurl:
@@ -104,6 +116,7 @@ exports.getinnerclass = async (ctx) => {
           list: [
             {
               isNoSave: false,
+              price: 100,
               zIndex: 1,
               name: "纯白",
               displayurl:
@@ -113,6 +126,7 @@ exports.getinnerclass = async (ctx) => {
             },
             {
               isNoSave: false,
+              price: 100,
               zIndex: 1,
               name: "简约",
               displayurl:
@@ -129,38 +143,46 @@ exports.getinnerclass = async (ctx) => {
             {
               id: 4,
               isNoSave: false,
+              price: 100,
               zIndex: 2,
               name: "momian1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_cake_black_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cake_black_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cake_black_sample.png",
             },
             {
               id: 0,
               isNoSave: false,
+              price: 100,
               zIndex: 2,
               name: "momian2",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_cake_bluegrey_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cake_bluegrey_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cake_bluegrey_sample.png",
             },
             {
               id: 5,
               isNoSave: false,
+              price: 100,
               zIndex: 2,
               name: "momian3",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_cake_purple_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cake_purple_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cake_purple_sample.png",
             },
             {
               id: 6,
               isNoSave: false,
+              price: 100,
               zIndex: 2,
               name: "momian4",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_cake_white_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cake_white_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cake_white_sample.png",
             },
           ],
         },
@@ -183,38 +205,46 @@ exports.getdiyclass = async (ctx) => {
             {
               id: 7,
               isNoSave: false,
+              price: 100,
               zIndex: 4,
               name: "linmian1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l3_cream_black_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cream_black_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cream_black_sample.png",
             },
             {
               id: 8,
               isNoSave: false,
+              price: 100,
               zIndex: 4,
               name: "linmian2",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l3_cream_blue_half_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cream_blue_half_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cream_blue_half_sample.png",
             },
             {
               id: 9,
               isNoSave: false,
+              price: 100,
               zIndex: 4,
               name: "linmian3",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l3_cream_glod_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cream_glod_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cream_glod_sample.png",
             },
             {
               id: 10,
               isNoSave: false,
+              price: 100,
               zIndex: 4,
               name: "linmian4",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l3_cream_gold_half_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cream_gold_half_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cream_gold_half_sample.png",
             },
           ],
         },
@@ -225,29 +255,35 @@ exports.getdiyclass = async (ctx) => {
             {
               id: 11,
               isNoSave: false,
+              price: 100,
               zIndex: 5,
               name: "chapai1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l5_theme_pubg_back_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_char_pubg_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_char_pubg_sample.png",
             },
             {
               id: 12,
               isNoSave: false,
+              price: 100,
               zIndex: 5,
               name: "chapai2",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l5_theme_stars_back_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_theme_stars_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_theme_stars_sample.png",
             },
             {
               id: 13,
               isNoSave: false,
+              price: 100,
               zIndex: 5,
               name: "暴富",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l6_cake_topper_rich_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_cake_topper_rich_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_cake_topper_rich_sample.png",
             },
           ],
         },
@@ -258,29 +294,35 @@ exports.getdiyclass = async (ctx) => {
             {
               id: 14,
               isNoSave: false,
+              price: 100,
               zIndex: 6,
               name: "黑糖",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l10_candy_black_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_candy_black_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_candy_black_sample.png",
             },
             {
               id: 15,
               isNoSave: false,
+              price: 100,
               zIndex: 6,
               name: "tangzhu2",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l10_candy_blue_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_candy_blue_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_candy_blue_sample.png",
             },
             {
               id: 16,
               isNoSave: false,
+              price: 100,
               zIndex: 6,
               name: "tangzhu3",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l10_candy_gold_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_candy_gold_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_candy_gold_sample.png",
             },
           ],
         },
@@ -291,38 +333,46 @@ exports.getdiyclass = async (ctx) => {
             {
               id: 0,
               isNoSave: false,
+              price: 100,
               zIndex: 3,
               name: "qiqiu1",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_balloon_black_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_balloon_black_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_balloon_black_sample.png",
             },
             {
               id: 1,
               isNoSave: false,
+              price: 100,
               zIndex: 3,
               name: "qiqiu2",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_balloon_blue_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_balloon_blue_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_balloon_blue_sample.png",
             },
             {
               id: 2,
               isNoSave: false,
+              price: 100,
               zIndex: 3,
               name: "qiqiu3",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_balloon_gold_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_balloon_gold_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_balloon_gold_sample.png",
             },
             {
               id: 3,
               isNoSave: false,
+              price: 100,
               zIndex: 3,
               name: "qiqiu4",
               displayurl:
                 "http://192.168.1.86:8080/display/display_l2_balloon_pink_sample.png",
-              itemurl: "http://192.168.1.86:8080/items/item_balloon_pink_sample.png",
+              itemurl:
+                "http://192.168.1.86:8080/items/item_balloon_pink_sample.png",
             },
           ],
         },
@@ -339,38 +389,38 @@ exports.tabclass = async (ctx) => {
       {
         name: "背景",
         id: 2001,
-        imgurl:
-          "http://192.168.1.86:8080/icons/ic_tabbar_background.png" },
+        imgurl: "http://192.168.1.86:8080/icons/ic_tabbar_background.png",
+      },
       {
         name: "主题",
         id: 2007,
-        imgurl:
-        "http://192.168.1.86:8080/icons/ic_tabbar_theme.png" },
+        imgurl: "http://192.168.1.86:8080/icons/ic_tabbar_theme.png",
+      },
       {
         name: "抹面",
         id: 2002,
-        imgurl:
-          "http://192.168.1.86:8080/icons/ic_tabbar_cake.png" },
+        imgurl: "http://192.168.1.86:8080/icons/ic_tabbar_cake.png",
+      },
       {
         name: "淋面",
         id: 2003,
-        imgurl:
-        "http://192.168.1.86:8080/icons/ic_tabbar_cream.png" },
+        imgurl: "http://192.168.1.86:8080/icons/ic_tabbar_cream.png",
+      },
       {
         name: "插牌",
         id: 2004,
-        imgurl:
-          "http://192.168.1.86:8080/icons/ic_tabbar_cake_topper.png" },
+        imgurl: "http://192.168.1.86:8080/icons/ic_tabbar_cake_topper.png",
+      },
       {
         name: "气球",
         id: 2006,
-        imgurl:
-        "http://192.168.1.86:8080/icons/ic_tabbar_balloon.png" },
+        imgurl: "http://192.168.1.86:8080/icons/ic_tabbar_balloon.png",
+      },
       {
         name: "糖珠",
         id: 2005,
-        imgurl:
-          "http://192.168.1.86:8080/icons/ic_tabbar_cake_candy.png" },
+        imgurl: "http://192.168.1.86:8080/icons/ic_tabbar_cake_candy.png",
+      },
     ],
     message: "获取成功",
   };
