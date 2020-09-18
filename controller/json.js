@@ -5,9 +5,8 @@ exports.qiqiu = [
     zIndex: 3,
     name: "qiqiu1",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5m.bjuu5pZRgCvYlVGJrJs3be0bvXxwiAlkhLQT0XxvPbrR5.lsZ7X7ioLDhz6SW0GxwFMw6aiPXM1MY47ryGyU!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5m.bjuu5pZRgCvYlVGJrJs3be0bvXxwiAlkhLQT0XxvPbrR5.lsZ7X7ioLDhz6SW0GxwFMw6aiPXM1MY47ryGyU!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_balloon_black_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_balloon_black_sample.png",
   },
   {
     id: 1,
@@ -15,9 +14,8 @@ exports.qiqiu = [
     zIndex: 3,
     name: "qiqiu2",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5hZym2qMW0R3EhtXgPcLX8VBhUwfbLZv6QaM*8FPan7odQsPLA3W64ZvaASqTznpLjl5JmtNSqCAiAWBEUvJ0gw!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5rkHIMgXUPkCvoMLQmDMbUK.T8L8nxrQTAH10AY3c2IQLHygNhjsA0FlTiprR.u5tRl2QQgXEGVSoNv2bVbUEfo!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_balloon_blue_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_balloon_blue_sample.png",
   },
   {
     id: 2,
@@ -25,9 +23,8 @@ exports.qiqiu = [
     zIndex: 3,
     name: "qiqiu3",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5hZym2qMW0R3EhtXgPcLX8U7iX6aqbKXQhAw7JZCfeKMM7xmFgb5hwfXmyzcU6SoLbtBPSkd7lJLPJ4dLXMGDos!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5rkHIMgXUPkCvoMLQmDMbUIx6ztQ0CD1WxykrvqojL*WoFmCDvS3UbVNgRWZHXoOQ79.Er9rioxdEC9u640SEZA!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_balloon_gold_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_balloon_gold_sample.png",
   },
   {
     id: 3,
@@ -35,9 +32,8 @@ exports.qiqiu = [
     zIndex: 3,
     name: "qiqiu4",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5hZym2qMW0R3EhtXgPcLX8UEYkP28wKMJh*TkevT3KuNqCRAd4GU5SvEhI3dTXN1LwEAHuIu4usRFp9BUKCiUM4!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5tEMyFjxVtNvGgC4LIGctFNDcLyTJHAyqRoIPWLJGkN3pJFU0o8jl3Lxo7jm2cgQH4nlB3kiPXVlBL92CHdeUiU!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_balloon_pink_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_balloon_pink_sample.png",
   },
 ];
 
@@ -48,9 +44,8 @@ exports.momian = [
     zIndex: 2,
     name: "momian1",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5hZym2qMW0R3EhtXgPcLX8VOtEDd.iyUoW0Rhao4PPCPcOsLAl3*2lX6IXn6ktVUmPoaTXB*UWt7rtpT*Rh6SGg!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5tEMyFjxVtNvGgC4LIGctFP8fyqqlodZPYTK0mQSFdONFSR5ymxehJeYG7CsPxxGyRxq946Pyh4xGCpEY2IINxk!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_cake_black_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cake_black_sample.png",
   },
   {
     id: 0,
@@ -58,9 +53,8 @@ exports.momian = [
     zIndex: 2,
     name: "momian2",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5kYRGmA6J19wE2.noUN.HOh3MPZNHFIY86xOCcLMhpRvqsEkgOYtRMH.VTrPGI3lOPk5n7CIegu2FCBQOQU1XvI!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5tEMyFjxVtNvGgC4LIGctFO9B.hIrgNImZNgJp*t7mAscOfdw9yCXLZ7D0QvtcR3pc.gmiimfCRYL*EH.QL4fs4!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_cake_bluegrey_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cake_bluegrey_sample.png",
   },
   {
     id: 5,
@@ -68,9 +62,8 @@ exports.momian = [
     zIndex: 2,
     name: "momian3",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5kYRGmA6J19wE2.noUN.HOj7CYZ5osmdZzjJ2LdyfzSEF6zvY5GPMXJSM*0xY7deRJ*yEyFc.I2LqozKx04S2nY!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5tEMyFjxVtNvGgC4LIGctFM*Fz7pxqPq0bJ7reuTLcUnOOFhkJzqBZ0wNmS5peLAKHMFcDIFyPJGLuPd0kWVdO8!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_cake_purple_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cake_purple_sample.png",
   },
   {
     id: 6,
@@ -78,9 +71,8 @@ exports.momian = [
     zIndex: 2,
     name: "momian4",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5kYRGmA6J19wE2.noUN.HOjUvpAWBVIwAiR9SZNMS8REVwk1X0WpbTh4JemYZT*C*.hg4MGK4gicEEtLewbh7fc!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5hnQTgkPi3K5fRuHP1Q.l.R7vaNMkuO5JQ2f8NS5UqjZI9BgViRX5uGUp0U2UxlOaObLq5lyMfzMzkW*vROvoxY!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l2_cake_white_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cake_white_sample.png",
   },
 ];
 
@@ -91,9 +83,8 @@ exports.linmian = [
     zIndex: 4,
     name: "linmian1",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5kYRGmA6J19wE2.noUN.HOhtJ22hzFZWqLfUBsz.4jqF2q1.Fq4QxWrZHt8rktdS0SlBVqBZ4IZL9*4kdWKC05A!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5uMD4xEqd8JRvxvi1M5CJHxTUC6NUko5E*TbNG1oV265UzEBD0nDxVejBDSWFKkHwg4UG3oMHfrGYdxrX6O1tIk!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l3_cream_black_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cream_black_sample.png",
   },
   {
     id: 8,
@@ -101,9 +92,8 @@ exports.linmian = [
     zIndex: 4,
     name: "linmian2",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5pw8T6IVG3YL1CZdNev3kS1IbUgYtz8LAyanil7aMTiadtZgxXS4M.STOHweu3O7CvP*kLTCL6.HImHi7veS1JM!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5uMD4xEqd8JRvxvi1M5CJHxENsQzYMMMuJo.OPjzGElcSC*6c3*XL3VtzC*aiS97ien1LOU1Iu7BG6tVcCcLyFQ!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l3_cream_blue_half_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cream_blue_half_sample.png",
   },
   {
     id: 9,
@@ -111,9 +101,8 @@ exports.linmian = [
     zIndex: 4,
     name: "linmian3",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5pw8T6IVG3YL1CZdNev3kS3B.7PPY9zuwu6D3JbupAOrGujhjEy3M1QlTQdurOWz8NqaUHYKQPVtY3RhEorrAwU!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5pghRHAJEAe1PmocjC35mSEzIWV55sorZZUI2IeOXbVinIvqf9zx0J4KWA6Q4AiWBU2ZK6LJSuEkVXXWDFY9G04!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l3_cream_glod_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cream_glod_sample.png",
   },
   {
     id: 10,
@@ -121,9 +110,8 @@ exports.linmian = [
     zIndex: 4,
     name: "linmian4",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5pw8T6IVG3YL1CZdNev3kS2PfnI8m694d59WdrUeTPio*3dwyZCApfgo7DAXb1O.FnWRMF73tSOj8qg0JZvElmE!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5pghRHAJEAe1PmocjC35mSFoq8firrQenLnXeUTjsbYXw6SJPePEaIXDBqmre5RduRhsHUO*nim6Ycua57sOxZU!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l3_cream_gold_half_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cream_gold_half_sample.png",
   },
 ];
 
@@ -134,9 +122,8 @@ exports.chapai = [
     zIndex: 5,
     name: "chapai1",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5ktAIhvMOTO0XyCymm0yIRzxIyZdvmDFUGXHOUsxO0VOuxCORTvjLrgo*vcJY9zXAXKdHf9wi8E*zAR7Af.5jNI!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5lPBcGoN9ULJSW2QQ3rXRkOyX5D0nIKimKAnnnlArx2Kagq.mZ5y40ZQxsBC3ZLTmUqYweQEs*r4gKAo3NA7pW0!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l5_theme_pubg_back_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_char_pubg_sample.png",
   },
   {
     id: 12,
@@ -144,9 +131,8 @@ exports.chapai = [
     zIndex: 5,
     name: "chapai2",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5qiSbxfJxjH6RPav0T9pZgqCs4FOrOQm9gybv4uxAZoPZ5o6YlEBElqpGrPbVWsO.84FkFCiHRRhhc8fctD92qs!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5lPBcGoN9ULJSW2QQ3rXRkOrK.whrfE8ND3DIp03D4BJlWkhta6OYxha7Xjgmd7Wxi9CzUhNVsrTIdKe81SYu84!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l5_theme_stars_back_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_theme_stars_sample.png",
   },
   {
     id: 13,
@@ -154,9 +140,8 @@ exports.chapai = [
     zIndex: 5,
     name: "暴富",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5qiSbxfJxjH6RPav0T9pZgo11WRnUnSLI5NgaV3eFuXRoRMW0ubmfoV.*KOCIMOFmVCMHQN7ePPPxURDwViQXhw!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5lPBcGoN9ULJSW2QQ3rXRkP2uZMxoVsv5zu4mRWxDWlOVWQYEMBWhkrRZqZlvsQy5tpqo.jdKrRM0tLDk3uS*NQ!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l6_cake_topper_rich_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_cake_topper_rich_sample.png",
   },
 ];
 
@@ -165,11 +150,10 @@ exports.tangzhu = [
     id: 14,
     isNoSave: false,
     zIndex: 6,
-    name: "tangzhu1",
+    name: "黑糖",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5uGCH2QmaK3hEvRhvf1e*2je5.XGHSs4qN3DyZO2bAN23ANczxl5SzJBtO*T6NfTVwj7qGzpbKRgzhKJQEawuL4!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5hnQTgkPi3K5fRuHP1Q.l.RRdGNs473lOEnS9B9QoU4wKh30bUT5DLXckqn.bpacSaXy2hVpC0n*VjWtOn7YlMg!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l10_candy_black_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_candy_black_sample.png",
   },
   {
     id: 15,
@@ -177,9 +161,8 @@ exports.tangzhu = [
     zIndex: 6,
     name: "tangzhu2",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5jH8EuwmmQUZChk2cGc8Q37i97dmlBhMq4XhvK.7sPfjmBWA3uZB640YBsSKtRFAazyRu33XzW6b9hMImjtQO8g!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5hnQTgkPi3K5fRuHP1Q.l.SW3t.xBduB*3Ma7h3pbmsjY12umwrCGUKZs6*XSraNNzzyLR6pAciGa8MpUujBMrc!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l10_candy_blue_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_candy_blue_sample.png",
   },
   {
     id: 16,
@@ -187,9 +170,8 @@ exports.tangzhu = [
     zIndex: 6,
     name: "tangzhu3",
     displayurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5jH8EuwmmQUZChk2cGc8Q34e6pLdyo*Bj.vAvcNqrVhcjq3h2zElup3s.m8U*MJC5NoVMIRT5aEEiwtFZM8wWns!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-    itemurl:
-      "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5uMD4xEqd8JRvxvi1M5CJHzRx2clWLz.pOygjb0Hj6b.ZWmqc29.rpPd8PeYGPG0QdX42H0hw4uDzA*.f70QiHo!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+      "http://192.168.1.86:8080/display/display_l10_candy_gold_sample.png",
+    itemurl: "http://192.168.1.86:8080/items/item_candy_gold_sample.png",
   },
 ];
 
@@ -197,25 +179,24 @@ exports.zhuti = [
   {
     name: "暴富主题",
     list: [
-        {
-            id: 13,
-            isNoSave: false,
-            zIndex: 5,
-            name: "暴富",
-            displayurl:
-              "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5qiSbxfJxjH6RPav0T9pZgo11WRnUnSLI5NgaV3eFuXRoRMW0ubmfoV.*KOCIMOFmVCMHQN7ePPPxURDwViQXhw!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-            itemurl:
-              "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5lPBcGoN9ULJSW2QQ3rXRkP2uZMxoVsv5zu4mRWxDWlOVWQYEMBWhkrRZqZlvsQy5tpqo.jdKrRM0tLDk3uS*NQ!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
-          },
+      {
+        id: 13,
+        isNoSave: false,
+        zIndex: 5,
+        name: "暴富",
+        displayurl:
+          "http://192.168.1.86:8080/display/display_l6_cake_topper_rich_sample.png",
+        itemurl:
+          "http://192.168.1.86:8080/items/item_cake_topper_rich_sample.png",
+      },
       {
         id: 4,
         isNoSave: false,
         zIndex: 2,
         name: "momian1",
         displayurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5hZym2qMW0R3EhtXgPcLX8VOtEDd.iyUoW0Rhao4PPCPcOsLAl3*2lX6IXn6ktVUmPoaTXB*UWt7rtpT*Rh6SGg!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-        itemurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5tEMyFjxVtNvGgC4LIGctFP8fyqqlodZPYTK0mQSFdONFSR5ymxehJeYG7CsPxxGyRxq946Pyh4xGCpEY2IINxk!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+          "http://192.168.1.86:8080/display/display_l2_cake_black_sample.png",
+        itemurl: "http://192.168.1.86:8080/items/item_cake_black_sample.png",
       },
       {
         id: 7,
@@ -223,9 +204,8 @@ exports.zhuti = [
         zIndex: 4,
         name: "linmian1",
         displayurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5kYRGmA6J19wE2.noUN.HOhtJ22hzFZWqLfUBsz.4jqF2q1.Fq4QxWrZHt8rktdS0SlBVqBZ4IZL9*4kdWKC05A!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-        itemurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5uMD4xEqd8JRvxvi1M5CJHxTUC6NUko5E*TbNG1oV265UzEBD0nDxVejBDSWFKkHwg4UG3oMHfrGYdxrX6O1tIk!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+          "http://192.168.1.86:8080/display/display_l3_cream_black_sample.png",
+        itemurl: "http://192.168.1.86:8080/items/item_cream_black_sample.png",
       },
     ],
   },
@@ -238,19 +218,26 @@ exports.zhuti = [
         zIndex: 2,
         name: "momian4",
         displayurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5kYRGmA6J19wE2.noUN.HOjUvpAWBVIwAiR9SZNMS8REVwk1X0WpbTh4JemYZT*C*.hg4MGK4gicEEtLewbh7fc!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-        itemurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5hnQTgkPi3K5fRuHP1Q.l.R7vaNMkuO5JQ2f8NS5UqjZI9BgViRX5uGUp0U2UxlOaObLq5lyMfzMzkW*vROvoxY!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+          "http://192.168.1.86:8080/display/display_l2_cake_white_sample.png",
+        itemurl: "http://192.168.1.86:8080/items/item_cake_white_sample.png",
       },
       {
-        id: 2,
+        id: 0,
         isNoSave: false,
         zIndex: 3,
-        name: "qiqiu3",
+        name: "qiqiu1",
         displayurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3AjAIF/ruAMsa53pVQWN7FLK88i5hZym2qMW0R3EhtXgPcLX8U7iX6aqbKXQhAw7JZCfeKMM7xmFgb5hwfXmyzcU6SoLbtBPSkd7lJLPJ4dLXMGDos!/mnull&bo=sgJYAgAAAAADB8g!&rf=photolist&t=5",
-        itemurl:
-          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5rkHIMgXUPkCvoMLQmDMbUIx6ztQ0CD1WxykrvqojL*WoFmCDvS3UbVNgRWZHXoOQ79.Er9rioxdEC9u640SEZA!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+          "http://192.168.1.86:8080/display/display_l2_balloon_black_sample.png",
+        itemurl: "http://192.168.1.86:8080/items/item_balloon_black_sample.png",
+      },
+      {
+        id: 11,
+        isNoSave: false,
+        zIndex: 5,
+        name: "chapai1",
+        displayurl:
+          "http://192.168.1.86:8080/display/display_l5_theme_pubg_back_sample.png",
+        itemurl: "http://192.168.1.86:8080/items/item_char_pubg_sample.png",
       },
       {
         id: 17,
