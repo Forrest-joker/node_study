@@ -1,15 +1,15 @@
-
-
 exports.gettheme = async (ctx) => {
   ctx.body = {
     code: 200,
     data: {
       name: "主题",
+      id: 2007,
       list: [
         {
-          id: 10001,
+          id: 1001,
           name: "暴富主题",
-          itemurl:"http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5lPBcGoN9ULJSW2QQ3rXRkP2uZMxoVsv5zu4mRWxDWlOVWQYEMBWhkrRZqZlvsQy5tpqo.jdKrRM0tLDk3uS*NQ!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
+          itemurl:
+            "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5lPBcGoN9ULJSW2QQ3rXRkP2uZMxoVsv5zu4mRWxDWlOVWQYEMBWhkrRZqZlvsQy5tpqo.jdKrRM0tLDk3uS*NQ!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
           list: [
             {
               id: 13,
@@ -44,10 +44,10 @@ exports.gettheme = async (ctx) => {
           ],
         },
         {
-          id: 10002,
+          id: 1002,
           name: "吃鸡主题",
           itemurl:
-                "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5uSKO1WjzhZxIMwG8mg1ZnXQpZ4VzTa9g3QwpCzzVREuCqTPWCe421IVXJjkLOV.1ND0eneyuIxxe5qQaPCvAFk!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5", 
+            "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM3OL0cS/ruAMsa53pVQWN7FLK88i5uSKO1WjzhZxIMwG8mg1ZnXQpZ4VzTa9g3QwpCzzVREuCqTPWCe421IVXJjkLOV.1ND0eneyuIxxe5qQaPCvAFk!/mnull&bo=eAB4AAAAAAADByI!&rf=photolist&t=5",
           list: [
             {
               id: 6,
@@ -95,7 +95,7 @@ exports.getinnerclass = async (ctx) => {
       list: [
         {
           name: "背景",
-          id:2001,
+          id: 2001,
           list: [
             {
               isNoSave: false,
@@ -119,7 +119,7 @@ exports.getinnerclass = async (ctx) => {
         },
         {
           name: "抹面",
-          id:2002,
+          id: 2002,
           list: [
             {
               id: 4,
@@ -177,7 +177,7 @@ exports.getdiyclass = async (ctx) => {
       list: [
         {
           name: "淋面",
-          id:2003,
+          id: 2003,
           list: [
             {
               id: 7,
@@ -223,7 +223,7 @@ exports.getdiyclass = async (ctx) => {
         },
         {
           name: "插牌",
-          id:2004,
+          id: 2004,
           list: [
             {
               id: 11,
@@ -259,6 +259,7 @@ exports.getdiyclass = async (ctx) => {
         },
         {
           name: "糖珠",
+          id: 2005,
           list: [
             {
               id: 14,
@@ -294,7 +295,7 @@ exports.getdiyclass = async (ctx) => {
         },
         {
           name: "气球",
-          id:2005,
+          id: 2006,
           list: [
             {
               id: 0,
@@ -340,6 +341,57 @@ exports.getdiyclass = async (ctx) => {
         },
       ],
     },
+    message: "获取成功",
+  };
+};
+
+exports.tabclass = async (ctx) => {
+  ctx.body = {
+    code: 200,
+    data: [
+      {
+        name: "背景",
+        id: 2001,
+        imgurl:
+          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM21zPHM/ruAMsa53pVQWN7FLK88i5vKCo6VFaTaX0jSrT33qRrQQWrdERvm1o9Sy74bgGZjzmPGCC4G5lZ1RaiUbf0hmRNYYsrv7T3gRf7cQ.SRMnvc!/mnull&bo=JgAmAAAAAAADByI!&rf=photolist&t=5",
+      },
+      {
+        name: "主题",
+        id: 2007,
+        imgurl:
+          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM21zPHM/ruAMsa53pVQWN7FLK88i5kCEWISg9X75XG4yX*A2RpVd.Eq9uj*ycinwRQi7rwe5gj54jOl3neFncCjm7Za7hzbrc4VP5KYrV2nRAw7VS9A!/mnull&bo=JgAmAAAAAAADByI!&rf=photolist&t=5",
+      },
+      {
+        name: "抹面",
+        id: 2002,
+        imgurl:
+          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM21zPHM/ruAMsa53pVQWN7FLK88i5hJRo9qWZHmB*nEflPjilZiwGWXVoXa*NA3V07rr6JGkj4mPVIl7BvHIg0MN9E7YBYZWRrS8rylKrEzqS0c0xqc!/mnull&bo=JgAmAAAAAAADByI!&rf=photolist&t=5",
+      },
+      {
+        name: "淋面",
+        id: 2003,
+        imgurl:
+          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM21zPHM/ruAMsa53pVQWN7FLK88i5kCEWISg9X75XG4yX*A2RpX9Y4T7SW7MHQgVI.j9BtGyVdswssih6wFbFerCBClTjksqLd3CuQM6HTD9TJO4hwY!/mnull&bo=JgAmAAAAAAADByI!&rf=photolist&t=5",
+      },
+      {
+        name: "插牌",
+        id: 2004,
+        imgurl:
+          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM21zPHM/ruAMsa53pVQWN7FLK88i5hJRo9qWZHmB*nEflPjilZj1G9k*wm6s5AVNobCVlokCRXObeuY6URol3Q0oKDXA66fnBDBxcDqdzHJcOXH0Vp4!/mnull&bo=JgAmAAAAAAADByI!&rf=photolist&t=5",
+      },
+      {
+        name: "气球",
+        id: 2006,
+        imgurl:
+          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM21zPHM/ruAMsa53pVQWN7FLK88i5vKCo6VFaTaX0jSrT33qRrTy7yeZbQbEOJ5nAIudNAq9GDheczRwzERC4e2Bk9AU3GZmhbSVXF2HoUnkVS61Ids!/mnull&bo=JgAmAAAAAAADByI!&rf=photolist&t=5",
+      },
+      {
+        name: "糖珠",
+        id: 2005,
+        imgurl:
+          "http://m.qpic.cn/psc?/V52d4MWy26SRwk1P8G734AZxRM21zPHM/ruAMsa53pVQWN7FLK88i5hJRo9qWZHmB*nEflPjilZjBmDQZSNMHpHZ5OmG2sJ33qOMEKz7tlBSEudxdcxhzY9psd5ZXLWeX*qSIUPYhS3k!/mnull&bo=JgAmAAAAAAADByI!&rf=photolist&t=5",
+      },
+    ],
     message: "获取成功",
   };
 };
