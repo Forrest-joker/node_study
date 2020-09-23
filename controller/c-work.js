@@ -7,15 +7,38 @@ exports.gettheme = async (ctx) => {
       type: 6,
       list: [
         {
-          id: 1001,
+          id: 20070,
           type: 6,
           name: "暴富主题",
           itemurl:
             "http://127.0.0.1:8080/items/item_cake_topper_rich_sample.png",
           list: [
             {
+              isNoSave: false,
+              id: 20011,
+              type: 0,
+              price: 0,
+              zIndex: 1,
+              name: "纯白",
+              displayurl:
+                "https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4104643572,3235991251&fm=26&gp=0.jpg",
+              itemurl:
+                "https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4104643572,3235991251&fm=26&gp=0.jpg",
+            },
+            {
+              type: 5,
+              id: 20051,
+              isNoSave: false,
+              price: 100,
+              zIndex: 6,
+              name: "tangzhu2",
+              displayurl:
+                "http://127.0.0.1:8080/display/display_l10_candy_blue_sample.png",
+              itemurl: "http://127.0.0.1:8080/items/item_candy_blue_sample.png",
+            },
+            {
+              id: 20042,
               type: 4,
-              id: 13,
               isNoSave: false,
               price: 100,
               zIndex: 5,
@@ -26,22 +49,55 @@ exports.gettheme = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_cake_topper_rich_sample.png",
             },
             {
-              type: 2,
-              id: 4,
-              price: 100,
+              id: 20061,
+              type: 1,
               isNoSave: false,
-              zIndex: 2,
-              name: "momian1",
+              price: 100,
+              zIndex: 3,
+              name: "qiqiu2",
               displayurl:
-                "http://127.0.0.1:8080/display/display_l2_cake_black_sample.png",
+                "http://127.0.0.1:8080/display/display_l2_balloon_blue_sample.png",
               itemurl:
-                "http://127.0.0.1:8080/items/item_cake_black_sample.png",
+                "http://127.0.0.1:8080/items/item_balloon_blue_sample.png",
+            },
+          ],
+        },
+        {
+          id: 20071,
+          type: 6,
+          name: "吃鸡主题",
+          itemurl:
+            "http://127.0.0.1:8080/display/display_l2_cake_white_sample.png",
+          list: [
+            {
+              isNoSave: false,
+              id: 20010,
+              type: 0,
+              price: 0,
+              zIndex: 1,
+              name: "简约",
+              displayurl:
+                "https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3769137498,1159068812&fm=26&gp=0.jpg",
+              itemurl:
+                "https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3769137498,1159068812&fm=26&gp=0.jpg",
             },
             {
-              type: 3,
-              id: 7,
+              id: 20021,
               isNoSave: false,
               price: 100,
+              type: 2,
+              zIndex: 2,
+              name: "momian2",
+              displayurl:
+                "http://127.0.0.1:8080/display/display_l2_cake_bluegrey_sample.png",
+              itemurl:
+                "http://127.0.0.1:8080/items/item_cake_bluegrey_sample.png",
+            },
+            {
+              id: 20030,
+              isNoSave: false,
+              price: 100,
+              type: 3,
               zIndex: 4,
               name: "linmian1",
               displayurl:
@@ -49,49 +105,17 @@ exports.gettheme = async (ctx) => {
               itemurl:
                 "http://127.0.0.1:8080/items/item_cream_black_sample.png",
             },
-          ],
-        },
-        {
-          id: 1002,
-          type: 6,
-          name: "吃鸡主题",
-          itemurl:
-            "http://127.0.0.1:8080/display/display_l2_cake_white_sample.png",
-          list: [
             {
-              type: 2,
-              id: 6,
-              isNoSave: false,
-              zIndex: 2,
-              price: 100,
-              name: "momian4",
-              displayurl:
-                "http://127.0.0.1:8080/display/display_l2_cake_white_sample.png",
-              itemurl:
-                "http://127.0.0.1:8080/items/item_cake_white_sample.png",
-            },
-            {
+              id: 20061,
               type: 1,
-              id: 0,
-              price: 100,
               isNoSave: false,
+              price: 100,
               zIndex: 3,
-              name: "qiqiu1",
+              name: "qiqiu2",
               displayurl:
-                "http://127.0.0.1:8080/display/display_l2_balloon_black_sample.png",
+                "http://127.0.0.1:8080/display/display_l2_balloon_blue_sample.png",
               itemurl:
-                "http://127.0.0.1:8080/items/item_balloon_black_sample.png",
-            },
-            {
-              type: 4,
-              id: 11,
-              price: 100,
-              isNoSave: false,
-              zIndex: 5,
-              name: "chapai1",
-              displayurl:
-                "http://127.0.0.1:8080/display/display_l5_theme_pubg_back_sample.png",
-              itemurl: "http://127.0.0.1:8080/items/item_char_pubg_sample.png",
+                "http://127.0.0.1:8080/items/item_balloon_blue_sample.png",
             },
           ],
         },
@@ -114,6 +138,7 @@ exports.getinnerclass = async (ctx) => {
           list: [
             {
               isNoSave: false,
+              id: 20010,
               type: 0,
               price: 0,
               zIndex: 1,
@@ -125,6 +150,7 @@ exports.getinnerclass = async (ctx) => {
             },
             {
               isNoSave: false,
+              id: 20011,
               type: 0,
               price: 0,
               zIndex: 1,
@@ -134,7 +160,6 @@ exports.getinnerclass = async (ctx) => {
               itemurl:
                 "https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4104643572,3235991251&fm=26&gp=0.jpg",
             },
-            
           ],
         },
         {
@@ -143,7 +168,7 @@ exports.getinnerclass = async (ctx) => {
           id: 2002,
           list: [
             {
-              id: 4,
+              id: 20020,
               isNoSave: false,
               price: 100,
               type: 2,
@@ -151,11 +176,10 @@ exports.getinnerclass = async (ctx) => {
               name: "momian1",
               displayurl:
                 "http://127.0.0.1:8080/display/display_l2_cake_black_sample.png",
-              itemurl:
-                "http://127.0.0.1:8080/items/item_cake_black_sample.png",
+              itemurl: "http://127.0.0.1:8080/items/item_cake_black_sample.png",
             },
             {
-              id: 0,
+              id: 20021,
               isNoSave: false,
               price: 100,
               type: 2,
@@ -167,7 +191,7 @@ exports.getinnerclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_cake_bluegrey_sample.png",
             },
             {
-              id: 5,
+              id: 20022,
               isNoSave: false,
               price: 100,
               zIndex: 2,
@@ -179,7 +203,7 @@ exports.getinnerclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_cake_purple_sample.png",
             },
             {
-              id: 6,
+              id: 20023,
               isNoSave: false,
               price: 100,
               type: 2,
@@ -187,8 +211,7 @@ exports.getinnerclass = async (ctx) => {
               name: "momian4",
               displayurl:
                 "http://127.0.0.1:8080/display/display_l2_cake_white_sample.png",
-              itemurl:
-                "http://127.0.0.1:8080/items/item_cake_white_sample.png",
+              itemurl: "http://127.0.0.1:8080/items/item_cake_white_sample.png",
             },
           ],
         },
@@ -210,7 +233,7 @@ exports.getdiyclass = async (ctx) => {
           type: 3,
           list: [
             {
-              id: 7,
+              id: 20030,
               isNoSave: false,
               price: 100,
               type: 3,
@@ -222,7 +245,7 @@ exports.getdiyclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_cream_black_sample.png",
             },
             {
-              id: 8,
+              id: 20031,
               isNoSave: false,
               type: 3,
               price: 100,
@@ -234,7 +257,7 @@ exports.getdiyclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_cream_blue_half_sample.png",
             },
             {
-              id: 9,
+              id: 20032,
               isNoSave: false,
               type: 3,
               price: 100,
@@ -242,11 +265,10 @@ exports.getdiyclass = async (ctx) => {
               name: "linmian3",
               displayurl:
                 "http://127.0.0.1:8080/display/display_l3_cream_glod_sample.png",
-              itemurl:
-                "http://127.0.0.1:8080/items/item_cream_glod_sample.png",
+              itemurl: "http://127.0.0.1:8080/items/item_cream_glod_sample.png",
             },
             {
-              id: 10,
+              id: 20033,
               isNoSave: false,
               type: 3,
               price: 100,
@@ -265,7 +287,7 @@ exports.getdiyclass = async (ctx) => {
           id: 2004,
           list: [
             {
-              id: 11,
+              id: 20040,
               isNoSave: false,
               type: 4,
               price: 100,
@@ -276,7 +298,7 @@ exports.getdiyclass = async (ctx) => {
               itemurl: "http://127.0.0.1:8080/items/item_char_pubg_sample.png",
             },
             {
-              id: 12,
+              id: 20041,
               type: 4,
               isNoSave: false,
               price: 100,
@@ -288,7 +310,7 @@ exports.getdiyclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_theme_stars_sample.png",
             },
             {
-              id: 13,
+              id: 20042,
               type: 4,
               isNoSave: false,
               price: 100,
@@ -307,7 +329,7 @@ exports.getdiyclass = async (ctx) => {
           id: 2005,
           list: [
             {
-              id: 14,
+              id: 20050,
               type: 5,
               isNoSave: true,
               price: 100,
@@ -320,27 +342,25 @@ exports.getdiyclass = async (ctx) => {
             },
             {
               type: 5,
-              id: 15,
+              id: 20051,
               isNoSave: false,
               price: 100,
               zIndex: 6,
               name: "tangzhu2",
               displayurl:
                 "http://127.0.0.1:8080/display/display_l10_candy_blue_sample.png",
-              itemurl:
-                "http://127.0.0.1:8080/items/item_candy_blue_sample.png",
+              itemurl: "http://127.0.0.1:8080/items/item_candy_blue_sample.png",
             },
             {
               type: 5,
-              id: 16,
+              id: 20052,
               isNoSave: false,
               price: 100,
               zIndex: 6,
               name: "tangzhu3",
               displayurl:
                 "http://127.0.0.1:8080/display/display_l10_candy_gold_sample.png",
-              itemurl:
-                "http://127.0.0.1:8080/items/item_candy_gold_sample.png",
+              itemurl: "http://127.0.0.1:8080/items/item_candy_gold_sample.png",
             },
           ],
         },
@@ -351,7 +371,7 @@ exports.getdiyclass = async (ctx) => {
           list: [
             {
               type: 1,
-              id: 0,
+              id: 20060,
               isNoSave: false,
               price: 100,
               zIndex: 3,
@@ -362,7 +382,7 @@ exports.getdiyclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_balloon_black_sample.png",
             },
             {
-              id: 1,
+              id: 20061,
               type: 1,
               isNoSave: false,
               price: 100,
@@ -374,7 +394,7 @@ exports.getdiyclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_balloon_blue_sample.png",
             },
             {
-              id: 2,
+              id: 20062,
               type: 1,
               isNoSave: false,
               price: 100,
@@ -386,7 +406,7 @@ exports.getdiyclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_balloon_gold_sample.png",
             },
             {
-              id: 3,
+              id: 20063,
               isNoSave: false,
               price: 100,
               type: 1,
@@ -409,12 +429,6 @@ exports.tabclass = async (ctx) => {
   ctx.body = {
     code: 200,
     data: [
-      {
-        name: "背景",
-        type: 0,
-        id: 2001,
-        imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_background.png",
-      },
       {
         name: "主题",
         type: 6,
@@ -450,6 +464,12 @@ exports.tabclass = async (ctx) => {
         type: 5,
         id: 2005,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_cake_candy.png",
+      },
+      {
+        name: "背景",
+        type: 0,
+        id: 2001,
+        imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_background.png",
       },
     ],
     message: "获取成功",
