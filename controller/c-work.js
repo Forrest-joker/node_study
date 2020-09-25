@@ -60,6 +60,45 @@ exports.gettheme = async (ctx) => {
               itemurl:
                 "http://127.0.0.1:8080/items/item_balloon_blue_sample.png",
             },
+            {
+              id: 20080,
+              isNoSave: false,
+              type: 7,
+              name: "大款",
+              itemurl: "http://127.0.0.1:8080/items/item_theme_poker_mahjong_sample.png",
+              list:[
+                {
+                  id: 200801,
+                  isNoSave: false,
+                  type: 7,
+                  price: 100,
+                  zIndex: 4,
+                  name: "美元",
+                  displayurl:
+                    "http://127.0.0.1:8080/display/display_l5_theme_poker_mahjong_back_sample.png",
+                },
+                {
+                  id: 200802,
+                  type: 7,
+                  isNoSave: false,
+                  price: 100,
+                  zIndex: 5,
+                  name: "金星",
+                  displayurl:
+                    "http://127.0.0.1:8080/display/display_l9_theme_pink_feather_front_sample.png",
+                },
+                {
+                  id: 200803,
+                  type: 7,
+                  isNoSave: false,
+                  price: 100,
+                  zIndex: 6,
+                  name: "金币",
+                  displayurl:
+                    "http://127.0.0.1:8080/display/display_l9_theme_poker_mahjong_front_sample.png",
+                },
+              ]
+            },
           ],
         },
         {
@@ -282,6 +321,52 @@ exports.getdiyclass = async (ctx) => {
           ],
         },
         {
+          name: "主题",
+          type: 7,
+          id: 2008,
+          list: [
+            {
+              id: 20080,
+              isNoSave: false,
+              type: 7,
+              name: "大款",
+              itemurl: "http://127.0.0.1:8080/items/item_theme_poker_mahjong_sample.png",
+              list:[
+                {
+                  id: 200801,
+                  isNoSave: false,
+                  type: 7,
+                  price: 100,
+                  zIndex: 4,
+                  name: "美元",
+                  displayurl:
+                    "http://127.0.0.1:8080/display/display_l5_theme_poker_mahjong_back_sample.png",
+                },
+                {
+                  id: 200802,
+                  type: 7,
+                  isNoSave: false,
+                  price: 100,
+                  zIndex: 5,
+                  name: "金星",
+                  displayurl:
+                    "http://127.0.0.1:8080/display/display_l9_theme_pink_feather_front_sample.png",
+                },
+                {
+                  id: 200803,
+                  type: 7,
+                  isNoSave: false,
+                  price: 100,
+                  zIndex: 6,
+                  name: "金币",
+                  displayurl:
+                    "http://127.0.0.1:8080/display/display_l9_theme_poker_mahjong_front_sample.png",
+                },
+              ]
+            },
+          ],
+        },
+        {
           name: "插牌",
           type: 4,
           id: 2004,
@@ -430,7 +515,7 @@ exports.tabclass = async (ctx) => {
     code: 200,
     data: [
       {
-        name: "主题",
+        name: "推荐主题",
         type: 6,
         id: 2007,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_theme.png",
@@ -446,6 +531,12 @@ exports.tabclass = async (ctx) => {
         type: 3,
         id: 2003,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_cream.png",
+      },
+      {
+        name: "主题",
+        type: 7,
+        id: 2008,
+        imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_theme.png",
       },
       {
         name: "插牌",
