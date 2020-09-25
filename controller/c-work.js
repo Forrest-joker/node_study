@@ -4,11 +4,11 @@ exports.gettheme = async (ctx) => {
     data: {
       name: "主题",
       id: 2007,
-      type: 6,
+      categoryType: 6,
       list: [
         {
           id: 20070,
-          type: 6,
+          categoryType: 6,
           name: "暴富主题",
           itemurl:
             "http://127.0.0.1:8080/items/item_cake_topper_rich_sample.png",
@@ -16,7 +16,7 @@ exports.gettheme = async (ctx) => {
             {
               isNoSave: false,
               id: 20011,
-              type: 0,
+              categoryType: 0,
               price: 0,
               zIndex: 1,
               name: "纯白",
@@ -26,7 +26,7 @@ exports.gettheme = async (ctx) => {
                 "https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4104643572,3235991251&fm=26&gp=0.jpg",
             },
             {
-              type: 5,
+              categoryType: 5,
               id: 20051,
               isNoSave: false,
               price: 100,
@@ -38,7 +38,7 @@ exports.gettheme = async (ctx) => {
             },
             {
               id: 20042,
-              type: 4,
+              categoryType: 4,
               isNoSave: false,
               price: 100,
               zIndex: 5,
@@ -50,7 +50,7 @@ exports.gettheme = async (ctx) => {
             },
             {
               id: 20061,
-              type: 1,
+              categoryType: 1,
               isNoSave: false,
               price: 100,
               zIndex: 3,
@@ -63,14 +63,14 @@ exports.gettheme = async (ctx) => {
             {
               id: 20080,
               isNoSave: false,
-              type: 7,
+              categoryType: 7,
               name: "大款",
               itemurl: "http://127.0.0.1:8080/items/item_theme_poker_mahjong_sample.png",
               list:[
                 {
                   id: 200801,
                   isNoSave: false,
-                  type: 7,
+                  categoryType: 7,
                   price: 100,
                   zIndex: 4,
                   name: "美元",
@@ -79,7 +79,7 @@ exports.gettheme = async (ctx) => {
                 },
                 {
                   id: 200802,
-                  type: 7,
+                  categoryType: 7,
                   isNoSave: false,
                   price: 100,
                   zIndex: 5,
@@ -89,7 +89,7 @@ exports.gettheme = async (ctx) => {
                 },
                 {
                   id: 200803,
-                  type: 7,
+                  categoryType: 7,
                   isNoSave: false,
                   price: 100,
                   zIndex: 6,
@@ -103,7 +103,7 @@ exports.gettheme = async (ctx) => {
         },
         {
           id: 20071,
-          type: 6,
+          categoryType: 6,
           name: "吃鸡主题",
           itemurl:
             "http://127.0.0.1:8080/display/display_l2_cake_white_sample.png",
@@ -111,7 +111,7 @@ exports.gettheme = async (ctx) => {
             {
               isNoSave: false,
               id: 20010,
-              type: 0,
+              categoryType: 0,
               price: 0,
               zIndex: 1,
               name: "简约",
@@ -124,7 +124,7 @@ exports.gettheme = async (ctx) => {
               id: 20021,
               isNoSave: false,
               price: 100,
-              type: 2,
+              categoryType: 2,
               zIndex: 2,
               name: "momian2",
               displayurl:
@@ -136,7 +136,7 @@ exports.gettheme = async (ctx) => {
               id: 20030,
               isNoSave: false,
               price: 100,
-              type: 3,
+              categoryType: 3,
               zIndex: 4,
               name: "linmian1",
               displayurl:
@@ -146,7 +146,7 @@ exports.gettheme = async (ctx) => {
             },
             {
               id: 20061,
-              type: 1,
+              categoryType: 1,
               isNoSave: false,
               price: 100,
               zIndex: 3,
@@ -172,13 +172,13 @@ exports.getinnerclass = async (ctx) => {
       list: [
         {
           name: "背景",
-          type: 0,
+          categoryType: 0,
           id: 2001,
           list: [
             {
               isNoSave: false,
               id: 20010,
-              type: 0,
+              categoryType: 0,
               price: 0,
               zIndex: 1,
               name: "简约",
@@ -190,7 +190,7 @@ exports.getinnerclass = async (ctx) => {
             {
               isNoSave: false,
               id: 20011,
-              type: 0,
+              categoryType: 0,
               price: 0,
               zIndex: 1,
               name: "纯白",
@@ -203,14 +203,14 @@ exports.getinnerclass = async (ctx) => {
         },
         {
           name: "抹面",
-          type: 2,
+          categoryType: 2,
           id: 2002,
           list: [
             {
               id: 20020,
               isNoSave: false,
               price: 100,
-              type: 2,
+              categoryType: 2,
               zIndex: 2,
               name: "momian1",
               displayurl:
@@ -221,7 +221,7 @@ exports.getinnerclass = async (ctx) => {
               id: 20021,
               isNoSave: false,
               price: 100,
-              type: 2,
+              categoryType: 2,
               zIndex: 2,
               name: "momian2",
               displayurl:
@@ -234,7 +234,7 @@ exports.getinnerclass = async (ctx) => {
               isNoSave: false,
               price: 100,
               zIndex: 2,
-              type: 2,
+              categoryType: 2,
               name: "momian3",
               displayurl:
                 "http://127.0.0.1:8080/display/display_l2_cake_purple_sample.png",
@@ -245,7 +245,7 @@ exports.getinnerclass = async (ctx) => {
               id: 20023,
               isNoSave: false,
               price: 100,
-              type: 2,
+              categoryType: 2,
               zIndex: 2,
               name: "momian4",
               displayurl:
@@ -269,13 +269,13 @@ exports.getdiyclass = async (ctx) => {
         {
           name: "淋面",
           id: 2003,
-          type: 3,
+          categoryType: 3,
           list: [
             {
               id: 20030,
               isNoSave: false,
               price: 100,
-              type: 3,
+              categoryType: 3,
               zIndex: 4,
               name: "linmian1",
               displayurl:
@@ -286,7 +286,7 @@ exports.getdiyclass = async (ctx) => {
             {
               id: 20031,
               isNoSave: false,
-              type: 3,
+              categoryType: 3,
               price: 100,
               zIndex: 4,
               name: "linmian2",
@@ -298,7 +298,7 @@ exports.getdiyclass = async (ctx) => {
             {
               id: 20032,
               isNoSave: false,
-              type: 3,
+              categoryType: 3,
               price: 100,
               zIndex: 4,
               name: "linmian3",
@@ -309,7 +309,7 @@ exports.getdiyclass = async (ctx) => {
             {
               id: 20033,
               isNoSave: false,
-              type: 3,
+              categoryType: 3,
               price: 100,
               zIndex: 4,
               name: "linmian4",
@@ -322,20 +322,20 @@ exports.getdiyclass = async (ctx) => {
         },
         {
           name: "主题",
-          type: 7,
+          categoryType: 7,
           id: 2008,
           list: [
             {
               id: 20080,
               isNoSave: false,
-              type: 7,
+              categoryType: 7,
               name: "大款",
               itemurl: "http://127.0.0.1:8080/items/item_theme_poker_mahjong_sample.png",
               list:[
                 {
                   id: 200801,
                   isNoSave: false,
-                  type: 7,
+                  categoryType: 7,
                   price: 100,
                   zIndex: 4,
                   name: "美元",
@@ -344,7 +344,7 @@ exports.getdiyclass = async (ctx) => {
                 },
                 {
                   id: 200802,
-                  type: 7,
+                  categoryType: 7,
                   isNoSave: false,
                   price: 100,
                   zIndex: 5,
@@ -354,7 +354,7 @@ exports.getdiyclass = async (ctx) => {
                 },
                 {
                   id: 200803,
-                  type: 7,
+                  categoryType: 7,
                   isNoSave: false,
                   price: 100,
                   zIndex: 6,
@@ -368,13 +368,13 @@ exports.getdiyclass = async (ctx) => {
         },
         {
           name: "插牌",
-          type: 4,
+          categoryType: 4,
           id: 2004,
           list: [
             {
               id: 20040,
               isNoSave: false,
-              type: 4,
+              categoryType: 4,
               price: 100,
               zIndex: 5,
               name: "chapai1",
@@ -384,7 +384,7 @@ exports.getdiyclass = async (ctx) => {
             },
             {
               id: 20041,
-              type: 4,
+              categoryType: 4,
               isNoSave: false,
               price: 100,
               zIndex: 5,
@@ -396,7 +396,7 @@ exports.getdiyclass = async (ctx) => {
             },
             {
               id: 20042,
-              type: 4,
+              categoryType: 4,
               isNoSave: false,
               price: 100,
               zIndex: 5,
@@ -410,12 +410,12 @@ exports.getdiyclass = async (ctx) => {
         },
         {
           name: "糖珠",
-          type: 5,
+          categoryType: 5,
           id: 2005,
           list: [
             {
               id: 20050,
-              type: 5,
+              categoryType: 5,
               isNoSave: true,
               price: 100,
               zIndex: 6,
@@ -426,7 +426,7 @@ exports.getdiyclass = async (ctx) => {
                 "http://127.0.0.1:8080/items/item_candy_black_sample.png",
             },
             {
-              type: 5,
+              categoryType: 5,
               id: 20051,
               isNoSave: false,
               price: 100,
@@ -437,7 +437,7 @@ exports.getdiyclass = async (ctx) => {
               itemurl: "http://127.0.0.1:8080/items/item_candy_blue_sample.png",
             },
             {
-              type: 5,
+              categoryType: 5,
               id: 20052,
               isNoSave: false,
               price: 100,
@@ -451,11 +451,11 @@ exports.getdiyclass = async (ctx) => {
         },
         {
           name: "气球",
-          type: 1,
+          categoryType: 1,
           id: 2006,
           list: [
             {
-              type: 1,
+              categoryType: 1,
               id: 20060,
               isNoSave: false,
               price: 100,
@@ -468,7 +468,7 @@ exports.getdiyclass = async (ctx) => {
             },
             {
               id: 20061,
-              type: 1,
+              categoryType: 1,
               isNoSave: false,
               price: 100,
               zIndex: 3,
@@ -480,7 +480,7 @@ exports.getdiyclass = async (ctx) => {
             },
             {
               id: 20062,
-              type: 1,
+              categoryType: 1,
               isNoSave: false,
               price: 100,
               zIndex: 3,
@@ -494,7 +494,7 @@ exports.getdiyclass = async (ctx) => {
               id: 20063,
               isNoSave: false,
               price: 100,
-              type: 1,
+              categoryType: 1,
               zIndex: 3,
               name: "qiqiu4",
               displayurl:
@@ -516,49 +516,49 @@ exports.tabclass = async (ctx) => {
     data: [
       {
         name: "推荐主题",
-        type: 6,
+        categoryType: 6,
         id: 2007,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_theme.png",
       },
       {
         name: "抹面",
-        type: 2,
+        categoryType: 2,
         id: 2002,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_cake.png",
       },
       {
         name: "淋面",
-        type: 3,
+        categoryType: 3,
         id: 2003,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_cream.png",
       },
       {
         name: "主题",
-        type: 7,
+        categoryType: 7,
         id: 2008,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_theme.png",
       },
       {
         name: "插牌",
-        type: 4,
+        categoryType: 4,
         id: 2004,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_cake_topper.png",
       },
       {
         name: "气球",
-        type: 1,
+        categoryType: 1,
         id: 2006,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_balloon.png",
       },
       {
         name: "糖珠",
-        type: 5,
+        categoryType: 5,
         id: 2005,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_cake_candy.png",
       },
       {
         name: "背景",
-        type: 0,
+        categoryType: 0,
         id: 2001,
         imgurl: "http://127.0.0.1:8080/icons/ic_tabbar_background.png",
       },
