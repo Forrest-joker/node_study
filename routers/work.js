@@ -2,7 +2,7 @@ const router = require('koa-router')();
 const controller = require('../controller/c-work')
 
 // 获取主题
-router.post('/work/gettheme', controller.gettheme);
+router.get('/work/gettheme', controller.gettheme);
 
 // 获取内置分类
 router.post('/work/getinnerclass', controller.getinnerclass);
