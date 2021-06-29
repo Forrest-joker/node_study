@@ -39,6 +39,13 @@ app.use(staticCache(path.join(__dirname, './images'), { dynamic: true }, {
   maxAge: 365 * 24 * 60 * 60
 }))
 
+app.use(bodyParser({
+  multipart: true,
+  formidable: {
+      maxFileSize: 200 * 1024 * 1024
+  }
+}))
+
 
 //  路由
 app.use(require('./routers/signin.js').routes())

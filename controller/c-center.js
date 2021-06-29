@@ -18,9 +18,6 @@ exports.findUser = async ctx => {
                     data: res[0],
                     message: '获取成功'
                 }
-                console.log('ctx.session.id', ctx.session.id)
-                console.log('session', ctx.session)
-                console.log('获取成功')
             } else {
                 ctx.body = {
                     code: 500,
